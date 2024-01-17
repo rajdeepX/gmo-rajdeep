@@ -1,0 +1,15 @@
+.login {
+  background: url("/src/assets/image/banner-bg.png");
+  height: 100vh;
+
+  .login-page__main {
+    max-width: 486px;
+    padding: 50px;
+    margin: 0 auto;
+
+    h1 {
+      color: #fff;
+      font-size: 3rem;
+    }
+  }
+}

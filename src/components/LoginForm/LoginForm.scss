@@ -1,0 +1,40 @@
+.login-form__box {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+
+  .login-btn {
+    width: 100%;
+    background: linear-gradient(300deg, rgb(185, 0, 0), #1e325e);
+    color: #fff;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    &:hover {
+      background: linear-gradient(200deg, #1e325e, rgb(185, 0, 0));
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+
+  .text {
+    .css-hbcvd-MuiFormLabel-root-MuiInputLabel-root {
+      color: #111;
+      font-family: inherit;
+    }
+    .css-y7yb7m-MuiInputBase-root-MuiInput-root::before {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    }
+    .css-y7yb7m-MuiInputBase-root-MuiInput-root:hover:not(
+        .Mui-disabled,
+        .Mui-error
+      ):before {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+    }
+
+    .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+      color: #111;
+    }
+
+    margin-bottom: 15px;
+  }
+}

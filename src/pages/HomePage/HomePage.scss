@@ -1,0 +1,23 @@
+.data-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(150deg, #bbb, #666);
+
+  .data-container__main {
+    max-width: 696px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .data-container__btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0 30px;
+  }
+
+  .components {
+    display: flex;
+    justify-content: space-between;
+  }
+}
